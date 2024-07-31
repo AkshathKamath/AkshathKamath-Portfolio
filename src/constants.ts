@@ -1,6 +1,6 @@
 export const constants = {
-  name: "Rakshit Arora",
-  tagline: "and I love building cool stuff 🛠️",
+  name: "Akshath Kamath",
+  tagline: "Masters in Data Science at Northeastern University",
   about:
     "I am a lifelong learner with experience in Full Stack Development and Automation. I am passionate about bringing ideas to life and writing readable and beautiful code. In addition to development, I enjoy travelling, watching anime, listening to music, reading fiction and helping communities and individuals.",
   aboutURLs: [
@@ -10,7 +10,7 @@ export const constants = {
     },
     {
       title: "Mind Map",
-      url: "https://rakshit087.github.io/mind-map",
+      url: "",
     },
   ],
   projects: [
@@ -54,10 +54,10 @@ export const constants = {
   contactContent:
     "I love connecting with different people and it would be awesome if we could get in touch :) You can find me on these platforms:",
   contactURLs: {
-    gmail: "mailto:rakshit087@gmail.com",
-    twitter: "https://twitter.com/rakshit087/",
-    github: "https://github.com/rakshit087/",
-    hashnode: "https://rakshit087.hashnode.dev/",
-    youtube: "https://www.youtube.com/channel/UCA446V0YEkL_BeBZt8gXFHg",
+    gmail: "mailto:akshathkamathwork@gmail.com",
+    twitter: "https://x.com/AkshathKWork",
+    github: "https://github.com/AkshathKamath",
+    hashnode: "",
+    youtube: "",
   },
 };

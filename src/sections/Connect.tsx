@@ -38,7 +38,7 @@ export const Connect = () => {
           )}
         </div>
       </div>
-      <footer className="absolute text-xs bottom-4 text-center">
+      {/* <footer className="absolute text-xs bottom-4 text-center">
         <span>
           Designed with 💜 by{" "}
           <a href="https://rakshit087.github.io" className="underline">
@@ -51,7 +51,7 @@ export const Connect = () => {
             GitHub
           </a>
         </div>
-      </footer>
+      </footer> */}
     </section>
   );
 };
