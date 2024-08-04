@@ -2,15 +2,15 @@ export const constants = {
   name: "Akshath Kamath",
   tagline: "Masters in Data Science at Northeastern University",
   about:
-    "I am a lifelong learner with experience in Full Stack Development and Automation. I am passionate about bringing ideas to life and writing readable and beautiful code. In addition to development, I enjoy travelling, watching anime, listening to music, reading fiction and helping communities and individuals.",
+    "I am a lifelong learner with experience in Full Stack Development, DevOps and Machine Learning. I am passionate about bringing ideas to life and writing readable and beautiful code. In addition to development, I enjoy travelling, listening to music and football.",
   aboutURLs: [
     {
       title: "Resume",
-      url: "https://bit.ly/rakshit-resume",
+      url: "https://drive.google.com/file/d/1hy0Ae0hIEVMhFSrKnRk3Da_uT0o6OajA/view?usp=sharing",
     },
     {
-      title: "Mind Map",
-      url: "",
+      title: "Blogs",
+      url: "https://medium.com/@akshathkamathwork",
     },
   ],
   projects: [
