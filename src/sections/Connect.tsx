@@ -1,4 +1,4 @@
-import { SiGmail, SiTwitter, SiGithub, SiHashnode, SiYoutube } from "react-icons/si";
+import { SiGmail, SiTwitter, SiGithub, SiHashnode, SiYoutube, SiLinkedin } from "react-icons/si";
 import { constants } from "../constants";
 
 export const Connect = () => {
@@ -34,6 +34,11 @@ export const Connect = () => {
           {constants.contactURLs.youtube && (
             <a href={constants.contactURLs.youtube} target="_blank" rel="noreferrer">
               <SiYoutube />
+            </a>
+          )}
+          {constants.contactURLs.linkedin && (
+            <a href={constants.contactURLs.linkedin} target="_blank" rel="noreferrer">
+              <SiLinkedin />
             </a>
           )}
         </div>
