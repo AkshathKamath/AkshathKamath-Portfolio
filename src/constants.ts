@@ -1,6 +1,6 @@
 export const constants = {
   name: "Akshath Kamath",
-  tagline: "Probably working on some random side project",
+  tagline: "Currently studying Data Science at Northeastern in Boston. Probably working on some random side project.",
   about:
     "I am a lifelong learner with experience in Full Stack Development, DevOps and Machine Learning. I am passionate about building cool stuff that solves real world problems using tech. Currently, I am intrigued by the math behind ML, and am exploring that. In addition to these, I enjoy travelling, listening to music and playing, watching football.",
   aboutURLs: [
