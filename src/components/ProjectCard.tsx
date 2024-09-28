@@ -18,7 +18,6 @@ export const ProjectCard = ({ title, desc, date, gallery, code, live }: project)
       </div>
       <div className="flex flex-col flex-grow justify-between py-6 px-4 mb-8 bg-white rounded-xl border-2 border-gray-700 border-solid cursor-pointer md:mb-10">
         <h2 className="mb-4 text-2xl md:mb-6 md:text-3xl">{title}</h2>
-        <p className="mb-4 md:mb-6">{desc}</p>
         <div className="flex">
           {live && (
             <a href={live} target="_blank" rel="noreferrer" className="mr-4 text-lg text-gray-700 md:mr-6 md:text-xl">
@@ -32,14 +31,15 @@ export const ProjectCard = ({ title, desc, date, gallery, code, live }: project)
           )}
           {gallery && (
             <a
-              href={gallery}
-              target="_blank"
-              rel="noreferrer"
-              className="mr-4 text-lg text-gray-700 md:mr-6 md:text-xl"
+            href={gallery}
+            target="_blank"
+            rel="noreferrer"
+            className="mr-4 text-lg text-gray-700 md:mr-6 md:text-xl"
             >
               <MdPhotoLibrary />
             </a>
           )}
+          <p className="mb-4 md:mb-6">{desc}</p>
         </div>
       </div>
     </motion.div>
